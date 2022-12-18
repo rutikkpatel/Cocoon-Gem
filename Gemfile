@@ -73,3 +73,8 @@ end
 
 # fontawesome icons
 gem "font-awesome-rails", "~> 4.7", ">= 4.7.0.8"
+
+gem 'jquery-rails'
+
+# Cocoon gem for dynamic fields
+gem 'cocoon'

@@ -1,0 +1,10 @@
+ <!-- Nested Form for f -->
+<div class="nested-fields">
+  <%= f.label :house_name, "House Name", class: "mt-3" %>
+  <%= f.text_area :house_name, placeholder: "Enter Your House Name", class: "mb-3 form-control" %>
+  <%= f.label :street_name, "Street Name", class: "mt-3" %>
+  <%= f.text_area :street_name, placeholder: "Enter Your Street Name", class: "mb-3 form-control" %>
+  <%= f.label :road, "Road", class: "mt-3" %>
+  <%= f.text_area :road, placeholder: "Enter Your Road", class: "mb-3 form-control" %>
+  <%= link_to_remove_association "Delete", f %>
+</div>
